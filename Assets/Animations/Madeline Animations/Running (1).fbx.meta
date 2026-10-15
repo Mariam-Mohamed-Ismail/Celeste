@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: fd79ddb3e9d072340a652af39e8c87cd
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Madeline_Spine2_05' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Skeleton
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thigh.L_067
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thigh.R_072
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Calf.L_068
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Calf.R_073
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Foot0.L_069
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Foot0.R_074
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pelvis_02
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Spine0_03
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Neck_06
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Head_07
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Shoulder.L_027
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Shoulder.R_046
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Upperarm.L_028
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Upperarm.R_047
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Forearm.L_029
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Forearm.R_048
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Wrist.L_030
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Wrist.R_049
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Foot1.L_070
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Foot1.R_075
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Bangs1_023
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Cowtail1_014
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb0.L_043
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb1.L_044
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb2.L_045
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index0.L_032
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index1.L_033
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index2.L_034
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle0.L_035
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle1.L_036
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle2.L_037
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring0.L_038
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring1.L_00
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring2.L_039
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky0.L_040
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky1.L_041
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky2.L_042
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb0.R_063
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb1.R_064
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Thumb2.R_065
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index0.R_051
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index1.R_052
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Index2.R_053
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle0.R_054
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle1.R_055
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Middle2.R_056
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring0.R_057
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring1.R_058
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Ring2.R_059
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky0.R_060
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky1.R_061
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Pinky2.R_062
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Madeline_Spine1_04
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Celeste(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 30e96897e27e4eb1b53b3af908760a57.fbx
+      parentName: Celeste(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeleton
+      parentName: 30e96897e27e4eb1b53b3af908760a57.fbx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.46405447, y: 0.4640541, z: 0.5335296, w: 0.5335292}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Madeline_Pelvis_02
+      parentName: Skeleton
+      position: {x: -0.00027291614, y: 1.2188639e-10, z: 0.013372628}
+      rotation: {x: 0.44424948, y: 0.4985098, z: 0.5501298, w: 0.50148547}
+      scale: {x: 0.9999996, y: 0.9999999, z: 1.0000012}
+    - name: Madeline_Spine0_03
+      parentName: Madeline_Pelvis_02
+      position: {x: 4.946987e-10, y: 0.0030292028, z: 1.3436535e-10}
+      rotation: {x: 0.060379937, y: -0.057398632, z: 0.0027533323, w: 0.99652004}
+      scale: {x: 1.0000012, y: 0.99999946, z: 1.0000006}
+    - name: Madeline_Spine1_04
+      parentName: Madeline_Spine0_03
+      position: {x: -0.0000000046611848, y: 0.0018463909, z: -5.663626e-10}
+      rotation: {x: 0.12154432, y: -0.1386082, z: -0.018630033, w: 0.9826839}
+      scale: {x: 1.0000012, y: 1, z: 1.000001}
+    - name: Madeline_Spine2_05
+      parentName: Madeline_Spine1_04
+      position: {x: 0.0000000010198019, y: 0.0019779603, z: -0.000000011340134}
+      rotation: {x: -0.094859235, y: 0.11162348, z: 0.017245568, w: 0.9890625}
+      scale: {x: 1.0000008, y: 1.0000006, z: 0.9999989}
+    - name: Madeline_Neck_06
+      parentName: Madeline_Spine2_05
+      position: {x: 1.816872e-11, y: 0.002356828, z: 1.01900474e-10}
+      rotation: {x: -0.10215574, y: 0.097899824, z: -0.0031800587, w: 0.98993427}
+      scale: {x: 1.0000014, y: 0.9999998, z: 1.0000017}
+    - name: Madeline_Head_07
+      parentName: Madeline_Neck_06
+      position: {x: 5.920399e-10, y: 0.0012650901, z: 0.0000000045076782}
+      rotation: {x: 0.054194387, y: -0.04965886, z: 0.004341662, w: 0.9972854}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000012}
+    - name: Madeline_Hair0_08
+      parentName: Madeline_Head_07
+      position: {x: -0.00012018221, y: 0.0020778908, z: 0.00397987}
+      rotation: {x: 0.37614742, y: 0.2414389, z: 0.88763386, w: 0.111025}
+      scale: {x: 1.0000013, y: 1.0000015, z: 1.0000004}
+    - name: Madeline_Hair1_09
+      parentName: Madeline_Hair0_08
+      position: {x: -0.00000000864998, y: 0.003242734, z: -0.000000016034676}
+      rotation: {x: -0.075943075, y: -0.2180795, z: 0.13374403, w: 0.96373576}
+      scale: {x: 0.9999988, y: 1.0000017, z: 0.99999946}
+    - name: Madeline_Hair2_010
+      parentName: Madeline_Hair1_09
+      position: {x: 0.000000055921227, y: 0.004497499, z: 0.0000000086663645}
+      rotation: {x: 0.017121773, y: 0.19464652, z: -0.18036355, w: -0.9639962}
+      scale: {x: 1.0000002, y: 1.0000031, z: 1.0000007}
+    - name: Madeline_Hair3_011
+      parentName: Madeline_Hair2_010
+      position: {x: -0.000000008721945, y: 0.00576021, z: 0.0000000041102606}
+      rotation: {x: -0.0017314715, y: 0.020641066, z: -0.020572767, w: 0.99957377}
+      scale: {x: 0.9999998, y: 1.0000006, z: 1}
+    - name: Madeline_Hair4_012
+      parentName: Madeline_Hair3_011
+      position: {x: 0.0000000030530787, y: 0.004503404, z: 0.0000000019453914}
+      rotation: {x: -0.0132007105, y: 0.006454703, z: -0.23273687, w: 0.97242874}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.000001}
+    - name: Madeline_Hair4_012_end
+      parentName: Madeline_Hair4_012
+      position: {x: -0, y: 0.004503409, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Cowtail0_013
+      parentName: Madeline_Head_07
+      position: {x: -0.0014319606, y: 0.0084423935, z: 0.0008694509}
+      rotation: {x: 0.30952707, y: -0.63465774, z: -0.20675209, w: -0.6772415}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: Madeline_Cowtail1_014
+      parentName: Madeline_Cowtail0_013
+      position: {x: -0.00000003022142, y: 0.00057251885, z: -0.0000000038347205}
+      rotation: {x: 0.22173178, y: -0.2334423, z: 0.14904998, w: 0.93494594}
+      scale: {x: 1.0000008, y: 1.0000024, z: 0.9999979}
+    - name: Madeline_Cowtail2_015
+      parentName: Madeline_Cowtail1_014
+      position: {x: 0.000000056438147, y: 0.00072306267, z: 0.0000000027567149}
+      rotation: {x: -0.49208617, y: 0.5187152, z: 0.080857314, w: -0.6944407}
+      scale: {x: 0.99999946, y: 0.9999989, z: 1.0000027}
+    - name: Madeline_Cowtail3_016
+      parentName: Madeline_Cowtail2_015
+      position: {x: 0.000000029131769, y: 0.00090862124, z: 0.00000002269633}
+      rotation: {x: 0.11917423, y: 0.57737446, z: 0.41062877, w: -0.695572}
+      scale: {x: 1.0000017, y: 1.0000008, z: 0.99999785}
+    - name: Madeline_Cowtail4_017
+      parentName: Madeline_Cowtail3_016
+      position: {x: -0.000000026784837, y: 0.00096391304, z: 0.000000102743506}
+      rotation: {x: -0.18945976, y: -0.30495155, z: -0.06117314, w: 0.9313256}
+      scale: {x: 0.9999977, y: 0.9999997, z: 1.0000023}
+    - name: Madeline_Cowtail4_017_end
+      parentName: Madeline_Cowtail4_017
+      position: {x: -0, y: 0.00096391304, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Eye.L_018
+      parentName: Madeline_Head_07
+      position: {x: 0.0018535709, y: 0.0030105293, z: -0.00342948}
+      rotation: {x: 0.015322456, y: -0.015086712, z: 0.00023156658, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000006}
+    - name: Madeline_Eye.L_018_end
+      parentName: Madeline_Eye.L_018
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pupil.L_019
+      parentName: Madeline_Head_07
+      position: {x: 0.001876271, y: 0.0030335917, z: -0.0041813697}
+      rotation: {x: 0.015322464, y: -0.01508672, z: 0.00023159778, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000005}
+    - name: Madeline_Pupil.L_019_end
+      parentName: Madeline_Pupil.L_019
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Mouth_020
+      parentName: Madeline_Head_07
+      position: {x: 0.000102394195, y: 0.0010219205, z: -0.0033908198}
+      rotation: {x: 0.015322436, y: -0.015205212, z: 0.0002298003, w: 0.99976695}
+      scale: {x: 1.0000023, y: 1, z: 1.0000012}
+    - name: Madeline_Mouth_020_end
+      parentName: Madeline_Mouth_020
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Brow.L_021
+      parentName: Madeline_Head_07
+      position: {x: 0.0018391705, y: 0.0042364905, z: -0.0029523193}
+      rotation: {x: 0.015322464, y: -0.01508672, z: 0.00023159778, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000005}
+    - name: Madeline_Brow.L_021_end
+      parentName: Madeline_Brow.L_021
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Bangs0_022
+      parentName: Madeline_Head_07
+      position: {x: -0.0010627604, y: 0.0073766136, z: -0.00289558}
+      rotation: {x: -0.7574995, y: 0.036642194, z: -0.6157106, w: 0.21389745}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1}
+    - name: Madeline_Bangs1_023
+      parentName: Madeline_Bangs0_022
+      position: {x: -0.00000009767711, y: 0.0020153641, z: -0.000000010803341}
+      rotation: {x: 0.15470755, y: 0.065375686, z: -0.049211625, w: 0.98456585}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000013}
+    - name: Madeline_Bangs1_023_end
+      parentName: Madeline_Bangs1_023
+      position: {x: -0, y: 0.0020153646, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Eye.R_024
+      parentName: Madeline_Head_07
+      position: {x: -0.0016433104, y: 0.0030105317, z: -0.00353506}
+      rotation: {x: 0.015322471, y: -0.0150866825, z: 0.00023162525, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000007}
+    - name: Madeline_Eye.R_024_end
+      parentName: Madeline_Eye.R_024
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pupil.R_025
+      parentName: Madeline_Head_07
+      position: {x: -0.0016206104, y: 0.003033589, z: -0.0042869393}
+      rotation: {x: 0.015322456, y: -0.015086712, z: 0.00023156658, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000006}
+    - name: Madeline_Pupil.R_025_end
+      parentName: Madeline_Pupil.R_025
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Brow.R_026
+      parentName: Madeline_Head_07
+      position: {x: -0.0016577207, y: 0.0042364923, z: -0.0030578896}
+      rotation: {x: 0.015322471, y: -0.0150866825, z: 0.00023162525, w: 0.99976873}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000007}
+    - name: Madeline_Brow.R_026_end
+      parentName: Madeline_Brow.R_026
+      position: {x: -0, y: 0.0056442544, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Shoulder.L_027
+      parentName: Madeline_Spine2_05
+      position: {x: -0.00029802893, y: 0.0023567805, z: 0.000020137468}
+      rotation: {x: -0.49850368, y: -0.5303641, z: -0.46170524, w: 0.50698745}
+      scale: {x: 1.0000018, y: 1.0000012, z: 0.9999997}
+    - name: Madeline_Upperarm.L_028
+      parentName: Madeline_Shoulder.L_027
+      position: {x: 1.0992835e-10, y: 0.0032679173, z: -0.0013736729}
+      rotation: {x: -0.07204891, y: 0.020258231, z: 0.022822915, w: 0.9969342}
+      scale: {x: 0.99999946, y: 0.9999996, z: 1.0000001}
+    - name: Madeline_Forearm.L_029
+      parentName: Madeline_Upperarm.L_028
+      position: {x: -8.1956386e-10, y: 0.004155463, z: 0.000000008789357}
+      rotation: {x: 0.0062863952, y: -0.04495479, z: 0.028737683, w: 0.99855584}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.0000001}
+    - name: Madeline_Wrist.L_030
+      parentName: Madeline_Forearm.L_029
+      position: {x: 0.000000001960434, y: 0.0042113713, z: 0.0000000033211836}
+      rotation: {x: 0.059992492, y: 0.055275846, z: -0.041402146, w: 0.9958069}
+      scale: {x: 0.9999999, y: 0.9999995, z: 1.0000015}
+    - name: Madeline_Hand.L_031
+      parentName: Madeline_Wrist.L_030
+      position: {x: -0.0000000026938505, y: 0.0007694949, z: -0.000000021595914}
+      rotation: {x: -0.04575297, y: -0.044160444, z: 0.005062401, w: 0.99796337}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.99999905}
+    - name: Madeline_Index0.L_032
+      parentName: Madeline_Hand.L_031
+      position: {x: -0.00073323806, y: 0.0024027918, z: 0.0002938445}
+      rotation: {x: 0.0035738933, y: -0.0557872, z: 0.023141311, w: -0.9981682}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: Madeline_Index1.L_033
+      parentName: Madeline_Index0.L_032
+      position: {x: 0.000000019297003, y: 0.00065433525, z: -0.00000004284084}
+      rotation: {x: 0.03762277, y: 0.115267575, z: -0.0040393346, w: -0.9926135}
+      scale: {x: 0.9999992, y: 1.000001, z: 0.9999996}
+    - name: Madeline_Index2.L_034
+      parentName: Madeline_Index1.L_033
+      position: {x: -0.0000000060349703, y: 0.0005937482, z: 0.0000000127870585}
+      rotation: {x: 0.03201899, y: 0.03367146, z: -0.01753193, w: 0.9987661}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: Madeline_Index2.L_034_end
+      parentName: Madeline_Index2.L_034
+      position: {x: -0, y: 0.00059374754, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Middle0.L_035
+      parentName: Madeline_Hand.L_031
+      position: {x: -0.00010828305, y: 0.0023844305, z: 0.00030553818}
+      rotation: {x: -0.016405059, y: 0.030438341, z: -0.016612446, w: 0.999264}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999999}
+    - name: Madeline_Middle1.L_036
+      parentName: Madeline_Middle0.L_035
+      position: {x: -0.0000000015832483, y: 0.00080085214, z: 0.000000016084522}
+      rotation: {x: -0.04014265, y: -0.056098744, z: 0.006755835, w: 0.99759513}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000004}
+    - name: Madeline_Middle2.L_037
+      parentName: Madeline_Middle1.L_036
+      position: {x: 2.0489097e-10, y: 0.00067193224, z: -0.00000007831026}
+      rotation: {x: 0.016596647, y: 0.017268768, z: -0.013483936, w: 0.9996222}
+      scale: {x: 1, y: 1.0000002, z: 1.0000011}
+    - name: Madeline_Middle2.L_037_end
+      parentName: Madeline_Middle2.L_037
+      position: {x: -0, y: 0.00067193434, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Ring0.L_038
+      parentName: Madeline_Hand.L_031
+      position: {x: 0.000493307, y: 0.002450851, z: 0.00031536113}
+      rotation: {x: 0.009109826, y: -0.050228268, z: 0.028202025, w: -0.9982979}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.99999917}
+    - name: Madeline_Ring1.L_00
+      parentName: Madeline_Ring0.L_038
+      position: {x: 0.0000000025331974, y: 0.00071175746, z: 0.00000003263587}
+      rotation: {x: 0.00927673, y: 0.009054227, z: -0.0041123433, w: 0.9999075}
+      scale: {x: 0.9999993, y: 0.99999887, z: 1.0000006}
+    - name: Madeline_Ring2.L_039
+      parentName: Madeline_Ring1.L_00
+      position: {x: 2.9802322e-10, y: 0.00054199813, z: -0.00000004837755}
+      rotation: {x: 0.034130815, y: 0.18721582, z: -0.003976483, w: -0.9817176}
+      scale: {x: 1.0000002, y: 1.0000029, z: 0.99999964}
+    - name: Madeline_Ring2.L_039_end
+      parentName: Madeline_Ring2.L_039
+      position: {x: -0, y: 0.0005419982, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pinky0.L_040
+      parentName: Madeline_Hand.L_031
+      position: {x: 0.0011069102, y: 0.0024492608, z: 0.00024275311}
+      rotation: {x: -0.04709566, y: -0.10338835, z: 0.04383055, w: -0.99255824}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000012}
+    - name: Madeline_Pinky1.L_041
+      parentName: Madeline_Pinky0.L_040
+      position: {x: 0.0000000018626451, y: 0.0003896607, z: 0.00000003617257}
+      rotation: {x: 0.03479004, y: 0.16927241, z: -0.004803219, w: -0.9849434}
+      scale: {x: 0.9999989, y: 1.000001, z: 0.9999996}
+    - name: Madeline_Pinky2.L_042
+      parentName: Madeline_Pinky1.L_041
+      position: {x: -0.0000000035762786, y: 0.0004561632, z: -0.000000017639248}
+      rotation: {x: -0.03699243, y: -0.108843386, z: 0.009318288, w: -0.99332666}
+      scale: {x: 1.0000005, y: 0.9999992, z: 1.0000012}
+    - name: Madeline_Pinky2.L_042_end
+      parentName: Madeline_Pinky2.L_042
+      position: {x: -0, y: 0.00045616293, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Thumb0.L_043
+      parentName: Madeline_Hand.L_031
+      position: {x: -0.0006437661, y: 0.0005817276, z: 0.00009042076}
+      rotation: {x: 0.14067458, y: -0.25902843, z: 0.3824921, w: 0.87567955}
+      scale: {x: 0.9999983, y: 1.0000013, z: 1.000001}
+    - name: Madeline_Thumb1.L_044
+      parentName: Madeline_Thumb0.L_043
+      position: {x: -0.00000005800277, y: 0.0007787676, z: 0.000000019967555}
+      rotation: {x: -0.008479736, y: 0.055539213, z: -0.032003533, w: 0.9979075}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000002}
+    - name: Madeline_Thumb2.L_045
+      parentName: Madeline_Thumb1.L_044
+      position: {x: 0.000000020712614, y: 0.0006628489, z: -0.00000009126961}
+      rotation: {x: 0.028784107, y: 0.011835944, z: 0.02371472, w: 0.9992342}
+      scale: {x: 0.9999993, y: 0.99999887, z: 1.0000013}
+    - name: Madeline_Thumb2.L_045_end
+      parentName: Madeline_Thumb2.L_045
+      position: {x: -0, y: 0.00066285, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Shoulder.R_046
+      parentName: Madeline_Spine2_05
+      position: {x: 0.00029802995, y: 0.00235678, z: -0.000020135338}
+      rotation: {x: 0.4662467, y: -0.5633344, z: -0.49426034, w: -0.47007996}
+      scale: {x: 1.0000019, y: 1.0000006, z: 0.9999997}
+    - name: Madeline_Upperarm.R_047
+      parentName: Madeline_Shoulder.R_046
+      position: {x: 0.000000002195577, y: 0.0032679215, z: -0.0013736697}
+      rotation: {x: 0.07204855, y: 0.020259468, z: 0.022823287, w: -0.9969342}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000007}
+    - name: Madeline_Forearm.R_048
+      parentName: Madeline_Upperarm.R_047
+      position: {x: 0.0000000036135315, y: 0.004155469, z: 0.000000013615936}
+      rotation: {x: 0.006284658, y: 0.04495489, z: -0.028738368, w: 0.99855584}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.99999964}
+    - name: Madeline_Wrist.R_049
+      parentName: Madeline_Forearm.R_048
+      position: {x: -0.0000000050268136, y: 0.0042113736, z: 0.00000002290326}
+      rotation: {x: 0.059995, y: -0.05527584, z: 0.041402195, w: 0.99580675}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000012}
+    - name: Madeline_Hand.R_050
+      parentName: Madeline_Wrist.R_049
+      position: {x: 0.0000000013271346, y: 0.0007695048, z: -0.000000050911765}
+      rotation: {x: -0.04575524, y: 0.04416057, z: -0.0050624735, w: 0.9979633}
+      scale: {x: 1.000001, y: 1.0000021, z: 0.99999976}
+    - name: Madeline_Index0.R_051
+      parentName: Madeline_Hand.R_050
+      position: {x: 0.0007332374, y: 0.0024027892, z: 0.00029384423}
+      rotation: {x: -0.0035746908, y: -0.05578737, z: 0.023141496, w: 0.9981681}
+      scale: {x: 0.99999934, y: 1.0000004, z: 1.0000011}
+    - name: Madeline_Index1.R_052
+      parentName: Madeline_Index0.R_051
+      position: {x: -0.000000011399388, y: 0.0006543281, z: -0.00000003687106}
+      rotation: {x: -0.03761938, y: 0.11526737, z: -0.004048257, w: 0.99261373}
+      scale: {x: 1.0000007, y: 1.0000018, z: 0.99999917}
+    - name: Madeline_Index2.R_053
+      parentName: Madeline_Index1.R_052
+      position: {x: 0.0000000014156103, y: 0.00059374556, z: 0.0000000114087015}
+      rotation: {x: 0.032019008, y: -0.033671457, z: 0.017531734, w: 0.9987661}
+      scale: {x: 1, y: 0.9999999, z: 1.000001}
+    - name: Madeline_Index2.R_053_end
+      parentName: Madeline_Index2.R_053
+      position: {x: -0, y: 0.00059374765, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Middle0.R_054
+      parentName: Madeline_Hand.R_050
+      position: {x: 0.00010828293, y: 0.0023844289, z: 0.0003055384}
+      rotation: {x: -0.01635245, y: -0.030438438, z: 0.016591186, w: 0.99926513}
+      scale: {x: 0.9999993, y: 0.9999999, z: 1.0000008}
+    - name: Madeline_Middle1.R_055
+      parentName: Madeline_Middle0.R_054
+      position: {x: -0.000000014770776, y: 0.00080086145, z: -0.00000007567985}
+      rotation: {x: -0.04028104, y: 0.056098457, z: -0.006768074, w: 0.99758947}
+      scale: {x: 1.0000002, y: 1.0000014, z: 0.9999995}
+    - name: Madeline_Middle2.R_056
+      parentName: Madeline_Middle1.R_055
+      position: {x: 0.0000000070780515, y: 0.00067191204, z: 0.000000029304065}
+      rotation: {x: 0.016597478, y: -0.017268928, z: 0.013484094, w: 0.9996222}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000004}
+    - name: Madeline_Middle2.R_056_end
+      parentName: Madeline_Middle2.R_056
+      position: {x: -0, y: 0.0006719123, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Ring0.R_057
+      parentName: Madeline_Hand.R_050
+      position: {x: -0.0004933057, y: 0.0024508487, z: 0.00031536093}
+      rotation: {x: -0.009109435, y: -0.050228182, z: 0.028202044, w: 0.9982979}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000008}
+    - name: Madeline_Ring1.R_058
+      parentName: Madeline_Ring0.R_057
+      position: {x: -0.0000000060349703, y: 0.0007117477, z: 0.000000047627836}
+      rotation: {x: 0.00927506, y: -0.009053958, z: 0.0041124113, w: 0.99990755}
+      scale: {x: 0.9999997, y: 1.0000008, z: 0.99999964}
+    - name: Madeline_Ring2.R_059
+      parentName: Madeline_Ring1.R_058
+      position: {x: 0.00000001039356, y: 0.0005420013, z: -0.000000023567118}
+      rotation: {x: -0.034103215, y: 0.18721461, z: -0.003983004, w: 0.98171884}
+      scale: {x: 0.9999999, y: 1.0000021, z: 0.99999887}
+    - name: Madeline_Ring2.R_059_end
+      parentName: Madeline_Ring2.R_059
+      position: {x: -0, y: 0.00054200075, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pinky0.R_060
+      parentName: Madeline_Hand.R_050
+      position: {x: -0.0011069092, y: 0.0024492682, z: 0.00024275151}
+      rotation: {x: 0.047094826, y: -0.10338869, z: 0.043830507, w: 0.99255824}
+      scale: {x: 0.9999991, y: 0.9999996, z: 1.0000014}
+    - name: Madeline_Pinky1.R_061
+      parentName: Madeline_Pinky0.R_060
+      position: {x: -0.000000008270145, y: 0.00038967232, z: 0.000000030510126}
+      rotation: {x: -0.034778237, y: 0.1692738, z: -0.004798529, w: 0.9849435}
+      scale: {x: 0.99999934, y: 1.0000012, z: 0.9999996}
+    - name: Madeline_Pinky2.R_062
+      parentName: Madeline_Pinky1.R_061
+      position: {x: 0.0000000077486035, y: 0.00045614224, z: -0.000000038882717}
+      rotation: {x: 0.036971763, y: -0.10884405, z: 0.0093183685, w: 0.9933274}
+      scale: {x: 1.0000008, y: 0.9999992, z: 1.0000017}
+    - name: Madeline_Pinky2.R_062_end
+      parentName: Madeline_Pinky2.R_062
+      position: {x: -0, y: 0.00045614294, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Thumb0.R_063
+      parentName: Madeline_Hand.R_050
+      position: {x: 0.0006437656, y: 0.0005817303, z: 0.00009042255}
+      rotation: {x: 0.14068869, y: 0.25902316, z: -0.3824891, w: 0.8756802}
+      scale: {x: 0.99999845, y: 0.9999993, z: 1.0000011}
+    - name: Madeline_Thumb1.R_064
+      parentName: Madeline_Thumb0.R_063
+      position: {x: 0.00000007227063, y: 0.00077875785, z: -0.000000004842877}
+      rotation: {x: -0.008506442, y: -0.055541795, z: 0.03201506, w: 0.99790674}
+      scale: {x: 1.0000017, y: 1.0000001, z: 1}
+    - name: Madeline_Thumb2.R_065
+      parentName: Madeline_Thumb1.R_064
+      position: {x: 0.000000004842877, y: 0.000662841, z: -0.00000007219612}
+      rotation: {x: 0.028800672, y: -0.011834496, z: -0.023736173, w: 0.99923325}
+      scale: {x: 1.0000012, y: 0.9999998, z: 1.0000013}
+    - name: Madeline_Thumb2.R_065_end
+      parentName: Madeline_Thumb2.R_065
+      position: {x: -0, y: 0.00066284416, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pelvis.L_066
+      parentName: Skeleton
+      position: {x: -0.00027291614, y: -0.00029871025, z: 0.013372628}
+      rotation: {x: 0.08105174, y: 0.91869545, z: 0.26193613, w: 0.28428635}
+      scale: {x: 1.0000005, y: 0.999999, z: 0.99999946}
+    - name: Madeline_Thigh.L_067
+      parentName: Madeline_Pelvis.L_066
+      position: {x: 0.0000000051781535, y: 0.002160586, z: 0.0000000116880985}
+      rotation: {x: -0.7299514, y: -0.49721453, z: -0.39201286, w: -0.25743875}
+      scale: {x: 1.0000015, y: 1.000001, z: 0.9999996}
+    - name: Madeline_Calf.L_068
+      parentName: Madeline_Thigh.L_067
+      position: {x: -0.0000000045460182, y: 0.0064262873, z: 0.0000000031967646}
+      rotation: {x: -0.16754934, y: 0.0022378413, z: 0.029695418, w: 0.9854139}
+      scale: {x: 1.0000002, y: 1.0000007, z: 0.9999998}
+    - name: Madeline_Foot0.L_069
+      parentName: Madeline_Calf.L_068
+      position: {x: 2.9802322e-10, y: 0.0053671524, z: -0.000000009704381}
+      rotation: {x: 0.60620755, y: 0.24147227, z: 0.26062047, w: 0.711534}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000002}
+    - name: Madeline_Foot1.L_070
+      parentName: Madeline_Foot0.L_069
+      position: {x: -2.2351741e-10, y: 0.0038642152, z: -0.0000000070035457}
+      rotation: {x: -0.1159873, y: -0.48579037, z: -0.27098745, w: -0.82287323}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000001}
+    - name: Madeline_Foot1.L_070_end
+      parentName: Madeline_Foot1.L_070
+      position: {x: -0, y: 0.0038642155, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_Pelvis.R_071
+      parentName: Skeleton
+      position: {x: -0.00027291742, y: 0.00029871045, z: 0.013372628}
+      rotation: {x: 0.9186944, y: 0.08105825, z: 0.28429103, w: 0.26193294}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000001}
+    - name: Madeline_Thigh.R_072
+      parentName: Madeline_Pelvis.R_071
+      position: {x: 0.000000009573996, y: 0.0021605876, z: -0.0000000054016707}
+      rotation: {x: -0.72995234, y: 0.49721542, z: 0.39201108, w: -0.25743702}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.99999976}
+    - name: Madeline_Calf.R_073
+      parentName: Madeline_Thigh.R_072
+      position: {x: -0.000000012360106, y: 0.0064262873, z: 0.0000000054179687}
+      rotation: {x: -0.16755016, y: -0.0022377667, z: -0.029694848, w: 0.9854138}
+      scale: {x: 1.0000008, y: 1.0000011, z: 0.9999999}
+    - name: Madeline_Foot0.R_074
+      parentName: Madeline_Calf.R_073
+      position: {x: 0.0000000018114223, y: 0.0053671543, z: 0.0000000044889745}
+      rotation: {x: 0.6062083, y: -0.24147233, z: -0.26062092, w: 0.7115332}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: Madeline_Foot1.R_075
+      parentName: Madeline_Foot0.R_074
+      position: {x: 0.0000000036880372, y: 0.0038642054, z: -0.00000000346452}
+      rotation: {x: 0.11598551, y: -0.48579028, z: -0.2709877, w: 0.82287353}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000004}
+    - name: Madeline_Foot1.R_075_end
+      parentName: Madeline_Foot1.R_075
+      position: {x: -0, y: 0.0038642057, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Madeline_IKHair_076
+      parentName: Skeleton
+      position: {x: 0.0072267503, y: -1.3234899e-25, z: 0.0054153195}
+      rotation: {x: 0.00000017881393, y: 0.00000032782555, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0.99999964, y: 0.99999994, z: 1}
+    - name: Madeline_IKHair_076_end
+      parentName: Madeline_IKHair_076
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera
+      parentName: Celeste(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.09062847, y: 0.89379627, z: -0.20997298, w: 0.3857799}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Celeste_MadelineBody_Celeste_Madeline_0
+      parentName: Celeste(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.656272, y: 0.0000000025179938, z: -0.0000000028949683, w: 0.7545244}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Celeste_MadelineHair_Celeste_Madeline_0
+      parentName: Celeste(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.656272, y: 0.0000000025179938, z: -0.0000000028949683, w: 0.7545244}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Light
+      parentName: Celeste(Clone)
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.52327543, y: -0.34203392, z: 0.72694236, w: 0.28416622}
+      scale: {x: 100.00001, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e4aade4e615cd91438f0de564ee2031d, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
